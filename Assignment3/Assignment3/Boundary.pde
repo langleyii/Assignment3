@@ -1,5 +1,3 @@
-// A fixed boundary class (now incorporates angle)
-
 class Boundary {
 
   // A boundary is a simple rectangle with x,y,width,and height

@@ -1,5 +1,3 @@
-// Class to describe the spring joint (displayed as a line)
-
 class Spring {
 
   // This is the box2d object we need to create
