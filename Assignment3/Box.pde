@@ -1,10 +1,3 @@
-// The Nature of Code
-// <http://www.shiffman.net/teaching/nature>
-// Spring 2010
-// Box2DProcessing example
-
-// A rectangular box
-
 class Box {
 
   // We need to keep track of a Body and a width and height
@@ -136,20 +129,36 @@ class Box {
 
     /////////////  Top Wall Sounds
 
+    //    if (pos.y<0+h+3 && pos.x > 0 && pos.x < width/2) {
+    //      //Play the sound
+    //      drumsFile[1].play(rate, 0.5);
+    //      println("Hit Top Wall Note1");
+    //      println(pos.y);
+    //      println(pos.x);
+    //    } else 
+    //    if (pos.y<0+h+3 && pos.x < width && pos.x > width/2) {
+    //      //Play the sound
+    //      drumsFile[2].play(rate, 0.5);
+    //      println("Hit Top Wall Note2");
+    //      println(pos.y);
+    //      println(pos.x);
+    //    }
+
     if (pos.y<0+h+3 && pos.x > 0 && pos.x < width/2) {
       //Play the sound
-      drumsFile[1].play(rate, 0.5);
+      vioFile[0].play(rate, 0.5);
       println("Hit Top Wall Note1");
       println(pos.y);
       println(pos.x);
     } else 
     if (pos.y<0+h+3 && pos.x < width && pos.x > width/2) {
       //Play the sound
-      drumsFile[2].play(rate, 0.5);
+      vioFile[1].play(rate, 0.5);
       println("Hit Top Wall Note2");
       println(pos.y);
       println(pos.x);
     }
+
 
     /////////////// Left Wall Sounds
 

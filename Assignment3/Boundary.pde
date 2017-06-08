@@ -1,10 +1,3 @@
-// The Nature of Code
-// <http://www.shiffman.net/teaching/nature>
-// Spring 2010
-// Box2DProcessing example
-
-// A fixed boundary class (now incorporates angle)
-
 class Boundary {
 
   // A boundary is a simple rectangle with x,y,width,and height
@@ -47,8 +40,9 @@ class Boundary {
   // Draw the boundary, if it were at an angle we'd have to do something fancier
   void display() {
     noFill();
-    stroke(0);
+    stroke(0); // boundary colour
     strokeWeight(1);
+    
     rectMode(CENTER);
 
     float a = b.getAngle();

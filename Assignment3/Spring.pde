@@ -1,10 +1,3 @@
-// The Nature of Code
-// <http://www.shiffman.net/teaching/nature>
-// Spring 2010
-// Box2DProcessing example
-
-// Class to describe the spring joint (displayed as a line)
-
 class Spring {
 
   // This is the box2d object we need to create
